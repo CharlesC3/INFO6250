@@ -1,0 +1,92 @@
+.billList{
+    width: 40rem;
+    padding: 0 2rem;
+    width: 70%;
+}
+
+.billList > div > span{
+    display: inline-block;
+    font-weight: bold;
+    width: 18%;
+    padding-right: 10px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+  
+li {
+    min-width: 651px;
+    border-top: 1px solid rgba(240, 239, 239);
+}
+  
+li > * {
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    word-break: break-all;
+    vertical-align: top;
+}
+  
+li > span {
+    display: inline-block;
+    width: 18%;
+}
+  
+
+  
+li:hover {
+    background-color: rgb(243, 243, 243);
+}
+  
+li > .description {
+    padding-top: 0;
+    white-space: pre-wrap;
+}
+
+#deleteBtn {
+    color: white;
+    background-color: red;
+    border: 0;
+}
+
+#deleteBtn:hover{
+    opacity: 0.5;
+}
+
+.billList ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.billList .nothing{
+    color: red;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: larger;
+}
+
+.billList .upIcon{
+    width: 0.5rem;
+}
+
+.billList .downIcon{
+    width: 0.5rem;
+}
+
+.billList .title button{
+    width: 1.5rem;
+}
+
+.billList .total{
+    text-align: right;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
